@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #7f3e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background: rgb(118, 201, 210);
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    /* background-image: url("https://in.bmscdn.com/iedb/artist/images/website/poster/large/salman-khan-1991-12-09-2017-01-53-43.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.balance {
+    text-align: center;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.money.plus {
+    color: green;
+}
+
+.money.minus {
+    color: red;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.list li.plus {
+    border-right: 5px solid green;
+}
+
+.list li.minus {
+    border-right: 5px solid red;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    background-color: pink;
+    text-align: center;
+    text-decoration: underline;
+    height: auto;
+    width: auto;
+}
